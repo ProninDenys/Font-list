@@ -1,0 +1,65 @@
+
+body {
+  font-family: 'PT Sans', sans-serif; 
+  margin: 100px;
+  
+}
+
+.main-title {
+  font-family: 'Francois One', sans-serif;
+  font-size: 36px;
+  font-weight: bold; 
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: black;
+  display: inline-flex;
+  align-items: baseline; 
+}
+
+.chapter {
+  font-family: 'Farro', sans-serif;
+  font-size: 14px; 
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1 px;
+  color: grey;
+  position: relative;
+  top: -23px; 
+  margin-left: 4px;
+  
+}
+
+.text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+i { 
+  font-style: italic;
+}
+
+u { 
+  text-decoration: underline;
+}
+
+
+.highlight {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 20px;
+  color: black;
+}
+
+.highlight,.highlighted-text {
+  background-color: #b3abab; 
+  font-family: Arial, sans-serif; 
+  font-size: 28px; 
+  font-weight: 1000; 
+}
