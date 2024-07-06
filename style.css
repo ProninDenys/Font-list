@@ -1,8 +1,6 @@
-
 body {
   font-family: 'PT Sans', sans-serif; 
   margin: 100px;
-  
 }
 
 .main-title {
@@ -22,12 +20,11 @@ body {
   font-size: 14px; 
   font-weight: 300;
   line-height: 30px;
-  letter-spacing: 1 px;
+  letter-spacing: 1px;
   color: grey;
   position: relative;
   top: -23px; 
   margin-left: 4px;
-  
 }
 
 .text {
@@ -35,7 +32,7 @@ body {
   font-size: 28px;
   font-weight: 400;
   line-height: 48px;
-  text-align: left;
+  text-align: justify; /* Добавлено для выравнивания текста по ширине */
   margin-top: 20px;
 }
 
@@ -46,7 +43,6 @@ i {
 u { 
   text-decoration: underline;
 }
-
 
 .highlight {
   font-family: 'PT Sans', sans-serif;
@@ -61,7 +57,6 @@ u {
   background-color: #cdc3c3; 
   font-family: Arial, sans-serif; 
   font-size: 28px; 
-  
 }
 
 .header {
@@ -73,14 +68,47 @@ u {
   margin-bottom: 50px;
 }
 
-.header .left-menu span {
-  margin-right: 40px;
-  font-weight: bold; 
-  color: black; 
+.header .left-menu {
+  display: flex;
+  align-items: center;
 }
 
-.header .right-menu span {
-  margin-right: 100px;
+.header .left-menu a {
   font-weight: bold; 
   color: black; 
+  text-decoration: none; /* Убрать подчеркивание */
+  margin-right: 20px; /* Добавить отступ между ссылками */
+}
+
+.header .right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header .right-menu .logo {
+  width: 238px;
+  height: 54px;
+  opacity: 1; /* Установите значение opacity, как требуется */
+}
+
+.eng {
+  font-family: 'Tourney', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.borders {
+  border: 1px solid #000000;
+}
+
+.doc-link {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
